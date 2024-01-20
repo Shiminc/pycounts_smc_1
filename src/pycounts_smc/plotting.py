@@ -8,4 +8,4 @@ def plot_words(word_counts, n=10):
     plt.xticks(range(n), labels=word, rotation=45)
     plt.xlabel("Word")
     plt.ylabel("Count")
-    return figgit 
+    return fig 
